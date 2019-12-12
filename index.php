@@ -6,7 +6,8 @@
 
 <body>
 
-<?php echo "Hello World1!"; ?>
+<?php echo "Hello World!"; ?>
+<?php echo "FQ!!"?>
 <?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
 <?php $links = [];
   foreach($_ENV as $key => $value) {
